@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <div class="caixa">
+        <h1>Calculadora</h1>
+        <div class="container"></div>
+        <div>
+            <p class="p">1ºNumero</p>
+            <input id="n1" type="number"><br>
+            <p>2ºNumero</p>
+            <input id="n2" type="number">
+        </div>
+        <div class="container"></div>
+        <div class="div">
+            <select name="operadores" id="select">
+                <option value="somar">Somar</option>
+                <option value="subtrair">Subtrai</option>
+                <option value="multiplicar">Multiplicar</option>
+                <option value="dividir">Dividir</option>
+            </select>
+        </div>
+        <div class="container"></div>
+        <div class="div">
+            <button type="button" class="calcular" onclick="sinais()" >Calcular</button>
+        </div>
+        <div class="div">
+            <div class="caixa1">
+                <p id="resultado" class="p">O resultado é: </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
